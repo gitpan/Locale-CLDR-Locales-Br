@@ -1,0 +1,61 @@
+{
+   "abstract" : "Locale::CLDR - Data Package Locales::Br.pm",
+   "author" : [
+      "John Imrie <john.imrie1@gmail.com>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4205",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Locale-CLDR-Locales-Br.pm",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::Exception" : "0",
+            "Test::More" : "0.98",
+            "ok" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.40"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "DateTime" : "0.72",
+            "Locale::CLDR" : "0.026007",
+            "Moose" : "2.0401",
+            "MooseX::ClassAttribute" : "0.26",
+            "perl" : "v5.10.0",
+            "version" : "0.95"
+         }
+      }
+   },
+   "provides" : {
+      "Locale::CLDR::Locales::Br" : {
+         "file" : "lib/Locale/CLDR/Locales/Br.pm",
+         "version" : "v0.26.7"
+      },
+      "Locale::CLDR::Locales::Br::Any" : {
+         "file" : "lib/Locale/CLDR/Locales/Br/Any.pm",
+         "version" : "v0.26.7"
+      },
+      "Locale::CLDR::Locales::Br::Any::Fr" : {
+         "file" : "lib/Locale/CLDR/Locales/Br/Any/Fr.pm",
+         "version" : "v0.26.7"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "v0.26.7"
+}
