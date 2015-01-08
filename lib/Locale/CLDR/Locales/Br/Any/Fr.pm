@@ -6,12 +6,12 @@ Locale::CLDR::Locales::Br::Any::Fr - Package for language Breton
 
 package Locale::CLDR::Locales::Br::Any::Fr;
 # This file auto generated from Data\common\main\br_FR.xml
-#	on Tue 30 Dec  9:13:24 pm GMT
+#	on Tue  6 Jan  9:13:19 am GMT
 # XML file generated 2014-07-23 16:10:33 -0500 (Wed, 23 Jul 2014)
 
 use version;
 
-our $VERSION = version->declare('v0.26.7');
+our $VERSION = version->declare('v0.26.8');
 
 use v5.10;
 use mro 'c3';
